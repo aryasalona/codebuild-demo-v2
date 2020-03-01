@@ -35,4 +35,4 @@ def lambda_handler(event, context):
       %(latitude, longitude,formatted_address))
     output={"address":formatted_address} 
     return output
-    #return('Hello from %s'%formatted_address)
+    #return('Hello from %s'%formatted_address 12')
